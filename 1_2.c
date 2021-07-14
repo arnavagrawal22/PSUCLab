@@ -22,4 +22,5 @@ int main()
     printf("Product is %f\n", c);
     c = a / b;
     printf("Quotient is %f\n", c);
+    return 0;
 }

@@ -17,4 +17,5 @@ int main()
     scanf("%d%d",&a,&b);
     c=a+b;
     printf("Sum is %d",c);
+    return 0;
 }
