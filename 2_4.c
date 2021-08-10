@@ -14,18 +14,19 @@ int main()
     float b;
     float c;
     printf("Please enter a,b and c\n");
-    printf("Finding roots of %fx^2 + (%f)x + (%f)", a, b, c);
+    scanf("%f %f %f", &a, &b, &c);
+    printf("Finding roots of %fx^2 + (%f)x + (%f)\n", a, b, c);
     float d;  //discriminant
     float r1; //first root
     float r2;
-    float imaginary; 
+    float imaginary;
     d = b * b - (4 * a * c);
     switch (d > 0)
     {
     case 1:
         r1 = (-b + sqrt(d)) / (2 * a);
         r2 = (-b - sqrt(d)) / (2 * a);
-        printf("Two distinct and real roots: %f and %f", r1, r2);
+        printf("Two distinct and real roots: %f and %f\n", r1, r2);
         break;
     case 0:
         switch (d < 0)
@@ -33,11 +34,11 @@ int main()
         case 1:
             r1 = r2 = -b / (2 * a);
             imaginary = sqrt(-d) / (2 * a);
-            printf("Two distinct complex roots: %f + i%f and %f - i%f", r1, imaginary, r2, imaginary);
+            printf("Two distinct complex roots: %f + i%f and %f - i%f\n", r1, imaginary, r2, imaginary);
             break;
         case 0:
             r1 = r2 = -b / (2 * a);
-            printf("Two equal and real roots: %f and %f", r1, r2);
+            printf("Two equal and real roots: %f and %f\n", r1, r2);
             break;
         }
         break;
