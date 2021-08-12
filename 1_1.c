@@ -12,10 +12,10 @@ int main()
     printf("Section M - 20\n");
     int a;
     int b;
-    int c;
+    int sum;
     printf("Enter two numbers\n");
     scanf("%d%d",&a,&b);
-    c=a+b;
-    printf("Sum is %d",c);
+    sum=a+b;
+    printf("Sum is %d",sum);
     return 0;
 }
