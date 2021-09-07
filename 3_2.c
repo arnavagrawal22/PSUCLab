@@ -23,11 +23,10 @@ int main()
             {
                 flag = 0;
                 break;
-                
             }
             k++;
         }
-        if (flag == 1)
+        if (flag == 1 && start != 1)
         {
             printf("%d\t", start);
         }

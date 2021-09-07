@@ -1,1 +1,1 @@
-printf("\n");
+Generate primenumbers between 2 given limits.(use while loop)
