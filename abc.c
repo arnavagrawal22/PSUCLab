@@ -1,8 +1,6 @@
 #include <stdio.h>
 int main()
 {
-
-   char c, d;
-   scanf(" %c %c", &c,&d);
-   printf(" '%c' '%c' ", c, d);
+  char ary[] = "Discovery Chaannel";
+  printf("%s", ary);
 }
